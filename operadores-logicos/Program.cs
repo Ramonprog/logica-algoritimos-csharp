@@ -39,3 +39,6 @@ else
 {
     Console.WriteLine("Reprovado");
 }
+
+//  ternário
+Console.WriteLine(media >= 7 ? "Aprovado" : "Reprovado");
