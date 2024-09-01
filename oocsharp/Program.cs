@@ -20,9 +20,11 @@
 // string retorno = obj3.AgeVerify();
 // Console.WriteLine(retorno);
 
-Student obj = new Student();
+// Student obj = new Student();
 
-obj.Name = "Ramon";
-obj.Media = 10;
+// obj.Name = "Ramon";
+// obj.Media = 10;
 
-Console.WriteLine("nome " + obj.Name + " média " + obj.Media);
+// Console.WriteLine("nome " + obj.Name + " média " + obj.Media);
+
+Employee employeeObj = new("Ramon", 29, "Desenvolvedor", 5000);

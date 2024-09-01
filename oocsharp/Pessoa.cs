@@ -1,24 +1,11 @@
 class Pessoa 
 {
-  // atributo
-  // atributos string tem que ter um valor, para burlar isso usamos ? antes
-  public string ?Name;
-  public int Age;
+  protected string? Name;
+  protected int Age;
 
-  // Métodos de apresentação
-  public void Presentation(){
-    Console.WriteLine($"Olá, meu nome é {Name}");
+  protected void Presentation()
+  {
+    Console.WriteLine($"Nome: {Name}");
+    Console.WriteLine($"Idade: {Age}");
   }
-
-  public string AgeVerify() {
-    return Age >= 18 ? "Maior de idade" : "Menor de idade";
-  }
-}
-
-class Student 
-{
-  public int Media { get; set; }
-  public string ?Name { get; set; }
-
-
 }
