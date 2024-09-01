@@ -12,3 +12,11 @@
 
 // Console.WriteLine("Resultado: " + res);
 
+
+// 02 pegue um numero e veja se é par ou ímpar
+
+Console.WriteLine("Digite um numero inteiro: ");
+int number01 = int.Parse(Console.ReadLine());
+
+string res = number01 % 2 == 0 ? "par" : "ímpar";
+Console.WriteLine(res);
