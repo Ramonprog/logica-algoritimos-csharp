@@ -57,4 +57,11 @@ for (int i = 1; i <= 10; i++)
 
 // vetor
 
-string[] names = { "Alisson", "Rafael", "João", "Pedro" };
+string[] names = ["Alisson", "Rafael", "João", "Pedro"];
+
+//foreach
+
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
