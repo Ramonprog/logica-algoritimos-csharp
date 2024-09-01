@@ -65,3 +65,12 @@ foreach (string name in names)
 {
     Console.WriteLine(name);
 }
+
+// matriz => é um array com varias informações
+
+string[,] dados = {
+    {"Alisson", "Rafael", "João", "Pedro"},
+    {"C#", "Java", "Python", "C++"},
+    {"Olá mundo", "Olá mundo", "Olá mundo", "Olá mundo"}
+};
+
